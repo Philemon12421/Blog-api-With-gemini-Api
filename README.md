@@ -1,7 +1,7 @@
 # 🤖 AI Blog Article Generator API
 ### 100% FREE — Powered by Google Gemini • No Credit Card Needed
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/blog-generator/blob/main/Blog_Generator_Gemini.ipynb)
+[![Open In Terminal](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/blog-generator/blob/main/Blog_Generator_Gemini.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green)](https://fastapi.tiangolo.com)
 [![Gemini](https://img.shields.io/badge/Gemini-2.0--flash-orange)](https://aistudio.google.com)
