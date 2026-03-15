@@ -12,7 +12,7 @@ class ArticleGenerator:
     def __init__(self):
         api_key = os.environ.get("GEMINI_API_KEY", "placeholder")
         self.client = genai.Client(api_key=api_key)
-        self.model = "gemini-2.0-flash"
+        self.model = "gemini-2.5-flash"
 
     async def generate(self, topic, news, tone="informative", word_count=1200, audience="general audience"):
         research = self._build_research(news)
@@ -77,7 +77,7 @@ Include exactly 5-7 sections. Each section must have at least 200 words of conte
             contents=prompt,
             config=types.GenerateContentConfig(
                 temperature=0.8,
-                max_output_tokens=4096,
+                max_output_tokens=8192,
             )
         )
 
